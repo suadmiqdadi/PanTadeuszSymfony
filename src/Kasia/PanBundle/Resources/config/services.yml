@@ -1,0 +1,4 @@
+services:
+#    kasia_pan.example:
+#        class: Kasia\PanBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

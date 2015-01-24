@@ -1,0 +1,7 @@
+kasia_pan_homepage:
+    path:     /PanTadeusz
+    defaults: { _controller: KasiaPanBundle:Default:index }
+
+kasia_pan_books:
+    path:     /PanTadeusz/Ksiega/{book}
+    defaults: { _controller: KasiaPanBundle:Default:books }

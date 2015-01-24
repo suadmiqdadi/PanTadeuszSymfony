@@ -1,0 +1,19 @@
+{% extends 'KasiaPanBundle::layout.html.twig' %}
+
+{% block menu %}
+	<ul class="list-group">
+		<li class="list-group-item"><a href="{{path('kasia_pan_homepage')}}">Strona główna</a></li>
+		<li class="list-group-item"><a href="{{path('kasia_pan_books', {'book': 1})}}">Księga pierwsza</a></li>
+		<li class="list-group-item"><a href="{{path('kasia_pan_books', {'book': 2})}}">Księga druga</a></li>
+		<li class="list-group-item"><a href="{{path('kasia_pan_books', {'book': 3})}}">Księga trzecia</a></li>
+		<li class="list-group-item"><a href="{{path('kasia_pan_books', {'book': 4})}}">Księga czwarta</a></li>
+		<li class="list-group-item"><a href="{{path('kasia_pan_books', {'book': 5})}}">Księga piąta</a></li>
+		<li class="list-group-item"><a href="{{path('kasia_pan_books', {'book': 6})}}">Księga szósta</a></li>
+		<li class="list-group-item"><a href="{{path('kasia_pan_books', {'book': 7})}}">Księga siódma</a></li>
+		<li class="list-group-item"><a href="{{path('kasia_pan_books', {'book': 8})}}">Księga ósma</a></li>
+		<li class="list-group-item"><a href="{{path('kasia_pan_books', {'book': 9})}}">Księga dziewiąta</a></li>
+		<li class="list-group-item"><a href="{{path('kasia_pan_books', {'book': 10})}}">Księga dziesiąta</a></li>
+		<li class="list-group-item"><a href="{{path('kasia_pan_books', {'book': 11})}}">Księga jedenasta</a></li>
+		<li class="list-group-item"><a href="{{path('kasia_pan_books', {'book': 12})}}">Księga dwunasta</a></li>
+	</ul>			
+{% endblock %}

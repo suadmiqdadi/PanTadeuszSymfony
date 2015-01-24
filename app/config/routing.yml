@@ -1,0 +1,8 @@
+kasia_pan:
+    resource: "@KasiaPanBundle/Resources/config/routing.yml"
+    prefix:   /
+
+kasia_hello:
+    resource: "@KasiaHelloBundle/Resources/config/routing.yml"
+    prefix:   /hw
+
