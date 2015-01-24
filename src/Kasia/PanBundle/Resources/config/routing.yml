@@ -5,3 +5,11 @@ kasia_pan_homepage:
 kasia_pan_books:
     path:     /PanTadeusz/Ksiega/{book}
     defaults: { _controller: KasiaPanBundle:Default:books }
+
+kasia_pan_reflection_index:
+    path:     /PanTadeusz/Reflections
+    defaults: { _controller: KasiaPanBundle:Reflection:index }
+
+kasia_pan_reflection_add:
+    path:     /PanTadeusz/Reflection/Add
+    defaults: { _controller: KasiaPanBundle:Reflection:add }

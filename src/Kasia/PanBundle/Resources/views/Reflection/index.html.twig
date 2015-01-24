@@ -1,0 +1,25 @@
+{% extends 'KasiaPanBundle::bars.html.twig' %}
+
+{% block header %}
+	<h1>Reflections List</h1>
+{% endblock %}
+{% block content %}
+	<table>
+		<thead>
+			<tr>
+				<th>No</th>
+				<th>Title</th>
+				<th>Reflection</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for reflection in reflections %}
+				<tr>
+					<td>{{ reflection.id }}</td>
+					<td>{{ reflection.title }}</td>
+					<td>{{ reflection.text }}</td>
+				</tr>	
+			{% endfor %}
+		</tbody>
+	</table>
+{% endblock %}

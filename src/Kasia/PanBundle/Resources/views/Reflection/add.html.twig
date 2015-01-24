@@ -1,0 +1,11 @@
+{% extends 'KasiaPanBundle::bars.html.twig' %}
+
+{% block header %}
+	<h1>Reflection Sending Form</h1>
+{% endblock %}
+{% block content %}
+	<form method="POST">
+		{{ form_row(form) }}
+		<button type="submitt">Send Reflection</button>
+	</form>
+{% endblock %}
